@@ -38,9 +38,9 @@ public class ShooterArm extends Subsystem {
         public void run() {
             try 
             {
-            	Robot.shooter.setSpeed(3);
-            	Robot.shooter.outtake();
-            	Thread.sleep(1250);
+        //    	Robot.shooter.setSpeed(3);  Removed at request of the driveteam 
+      //      	Robot.shooter.outtake();
+    //        	Thread.sleep(1250);
             	RobotMap.SOLENOID_SHOOTER_ARM.set(EXTENDED_POSITION);
                 Thread.sleep(DELAY);
                 RobotMap.SOLENOID_SHOOTER_ARM.set(DEFAULT_POSITION);
