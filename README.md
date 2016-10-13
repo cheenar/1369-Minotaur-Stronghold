@@ -1,7 +1,7 @@
 # Minotaur 1369 (2015 - 2016) #
 
 ## Abstract ##
-This repository is a collection of two code bases, one being the Palmetto code base and the World code base. The palmetto code base is code that was used during the Palmetto regional and does not reflect changes made during Orlando and later on during Worlds.
+This repository is a collection of three code bases: Palmetto, World, and Panther Prowl. The palmetto code base is code that was used during the Palmetto regional and does not reflect changes made during Orlando and later on during Worlds. The panther code has been updated in the 2016-2017 cycle has has been used at off-season events and tournaments. 
 
 
 **Important Note**: The Palmetto code base currently contains PID Control code (currently only implementing a P control loop) that was not present during the Palmetto regional. Do to some issues, I had to test the Robot (9/19/16) using the outdated code base and is the reason for the inclusion of that code base.
